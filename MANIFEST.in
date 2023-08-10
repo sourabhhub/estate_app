@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include weberp *.css
+recursive-include weberp *.csv
+recursive-include weberp *.html
+recursive-include weberp *.ico
+recursive-include weberp *.js
+recursive-include weberp *.json
+recursive-include weberp *.md
+recursive-include weberp *.png
+recursive-include weberp *.py
+recursive-include weberp *.svg
+recursive-include weberp *.txt
+recursive-exclude weberp *.pyc
